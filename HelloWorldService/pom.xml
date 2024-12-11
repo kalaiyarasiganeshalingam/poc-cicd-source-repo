@@ -2,7 +2,7 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>wso2.sampleHelloWorld</groupId>
-  <artifactId>helloworldservice</artifactId>
+  <artifactId>testhello</artifactId>
   <version>1.0.0</version>
   <packaging>pom</packaging>
   <name>HelloWorldService</name>
@@ -315,7 +315,7 @@
                 <configuration>
                   <images>
                     <image>
-                      <name>helloworldservice:${project.version}</name>
+                      <name>testhello:${project.version}</name>
                       <build>
                         <from>${dockerfile.base.image}</from>
                         <dockerFile>${basedir}/target/tmp_docker/Dockerfile</dockerFile>
